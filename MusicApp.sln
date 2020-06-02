@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApp.API", "MusicApp.API\MusicApp.API.csproj", "{DD9FFE80-E45A-479E-B933-A9B272629645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApp.Core", "MusicApp.Core\MusicApp.Core.csproj", "{22ECEC5D-19B4-4971-9FA9-CAB4312004F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApp.BLL", "MusicApp.BLL\MusicApp.BLL.csproj", "{E44374B7-7D27-40C9-B13F-B8566F699B48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApp.DAL", "MusicApp.DAL\MusicApp.DAL.csproj", "{F6E2F138-F60C-4E44-884C-1469F7FCF462}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{813F70B2-01AC-4BC4-9521-08B29A3BDD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApp.BLL.Tests", "MusicApp.BLL.Tests\MusicApp.BLL.Tests.csproj", "{71CBB624-BA52-4FA8-8F3C-50FB179627A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD9FFE80-E45A-479E-B933-A9B272629645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9FFE80-E45A-479E-B933-A9B272629645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9FFE80-E45A-479E-B933-A9B272629645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9FFE80-E45A-479E-B933-A9B272629645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22ECEC5D-19B4-4971-9FA9-CAB4312004F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22ECEC5D-19B4-4971-9FA9-CAB4312004F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22ECEC5D-19B4-4971-9FA9-CAB4312004F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22ECEC5D-19B4-4971-9FA9-CAB4312004F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44374B7-7D27-40C9-B13F-B8566F699B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44374B7-7D27-40C9-B13F-B8566F699B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44374B7-7D27-40C9-B13F-B8566F699B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44374B7-7D27-40C9-B13F-B8566F699B48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E2F138-F60C-4E44-884C-1469F7FCF462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E2F138-F60C-4E44-884C-1469F7FCF462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E2F138-F60C-4E44-884C-1469F7FCF462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E2F138-F60C-4E44-884C-1469F7FCF462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CBB624-BA52-4FA8-8F3C-50FB179627A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CBB624-BA52-4FA8-8F3C-50FB179627A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CBB624-BA52-4FA8-8F3C-50FB179627A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CBB624-BA52-4FA8-8F3C-50FB179627A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71CBB624-BA52-4FA8-8F3C-50FB179627A7} = {813F70B2-01AC-4BC4-9521-08B29A3BDD79}
+	EndGlobalSection
+EndGlobal
